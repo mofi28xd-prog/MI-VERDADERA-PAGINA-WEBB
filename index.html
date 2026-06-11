@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Agenda de citas legales</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f8;
+        color: #1f2937;
+      }
+
+      main {
+        width: 90%;
+        max-width: 700px;
+        margin: 30px auto;
+        padding: 20px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #0f172a;
+      }
+
+      .foto-perfil {
+       width: 220px;
+       display: block;
+       margin: 15px auto;
+       border-radius: 8px;
+      }
+
+      label {
+        display: block;
+        margin-top: 12px;
+        font-weight: bold;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+
+      button {
+        width: 100%;
+        margin-top: 18px;
+        padding: 10px;
+        background: #2563eb;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+      }
+
+      .fortnite {
+        margin-top: 15px;
+        padding: 12px;
+        background: #eef2ff;
+        border: 1px solid #c7d2fe;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>BIENVENIDOS A FERNANDO'S CORP</h1>
+      <img class="foto-perfil" src="foto.PNG" alt="Foto de Fernando">
+            <p>Pagina dirigida por Fernando Joaquín Tapia Reynaga, estudiante de Derecho en la Univerisidad Cientifica del Sur, actualmente me enfoco en tres ramas del derecho 
+            , ¡Contactame y conversemos sobre tu consulta!.</p>
+      <h2>Acerca de mi </h2>
+      <p>Me considero una persona empatica, con ganas de ayudar a los demas, me gusta mucho el derecho ambiental, penal y administrativo, por lo que me enfoco en esas ramas del derecho.
+        Pertenezco al tercio superior de mi carrera, soy Director de la Comisión de Eventos en la Asociación estudiantil Lex Sphere, y estudiante activo en voluntariados de mi universidad, como el Coloquio de la IUCN,
+        Congreso Nacional e Internacional de Derecho Ambiental, entre otros. 
+        ¡¡Visita mi perfil de LinkedIn para conocer mas sobre mi experiencia y trayectoria profesional!!</p>
+        <a href="https://www.linkedin.com/in/fernando-joaquin-tapia-reynaga-52b056337/" target="_blank">
+    Fernando Joaquín Tapia Reynaga
+  </a>
+</p>
+        Actualmente me encuentro en el proceso de aprendizaje, por lo que mis asesorias son gratuitas, no dudes en contactarme para resolver tus dudas legales.</p>
+      <h3>Agenda tu cita sobre derecho</h3>
+      <p>Completa el formulario para elegir la rama legal a la cual deseas que te asesore y la hora en que tengas mejor disponibilidad.
+         Nuestras asesorias duran un promedio de 1 hora, tener encuenta ello.</p>
+
+      <form>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+
+        <label for="correo">COLOCAR CORREO PERSONAL</label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com">
+
+        <label for="celular">NUMERO DE CELULAR</label>
+        <input type="tel" id="celular" name="celular" placeholder="Escribe tu numero de celular">
+
+        <label for="pais">PAIS DE RESIDENCIA</label>
+        <input type="text" id="pais" name="pais" placeholder="Escribe tu pais de residencia">
+
+        <label for="rama">Rama del derecho</label>
+        <select id="rama" name="rama">
+          <option>Ambiental</option>
+          <option>Penal</option>
+          <option>Administrativo</option>
+        </select>
+
+        <label for="hora">Hora de la cita</label>
+        <select id="hora" name="hora">
+          <option>10:00 AM</option>
+          <option>11:00 AM</option>
+          <option>12:00 PM</option>
+          <option>1:00 PM</option>
+          <option>2:00 PM</option>
+          <option>3:00 PM</option>
+          <option>4:00 PM</option>
+          <option>5:00 PM</option>
+          <option>6:00 PM</option>
+          <option>7:00 PM</option>
+          <option>8:00 PM</option>
+        </select>
+
+        <label for="mensaje">Mensaje adicional</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe algun detalle de tu consulta"></textarea>
+
+        <details class="fortnite">
+          <summary>Otro tipo de cita</summary>
+          <h2>Opciones para jugar Fortnite</h2>
+          <p>Podemos jugar duo, trio, squad o creativo.</p>
+          <p><strong>Este es mi ID agregame! : mOfi</strong></p>
+
+          <label for="artista">ARTISTA FAVORITO</label>
+          <input type="text" id="artista" name="artista" placeholder="Escribe tu artista favorito">
+        </details>
+
+        <button type="submit">Agendar cita</button>
+      </form>
+    </main>
+  </body>
+</html>
